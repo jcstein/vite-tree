@@ -1,4 +1,4 @@
-import { VStack, Flex } from "@chakra-ui/react";
+import { VStack, Flex, Link, Avatar } from "@chakra-ui/react";
 import { Buttons } from "./Components/buttons";
 import { About } from "./Components/about";
 import { Links } from "./Components/links";
@@ -16,6 +16,9 @@ function App() {
         <VStack p="8">
           <About />
           <Links />
+          <Link href="/" pt="8">
+            <Avatar src="/jcs.png" mx="auto" size="md" />
+          </Link>
         </VStack>
       </Flex>
     </div>
