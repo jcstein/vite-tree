@@ -1,4 +1,4 @@
-import { Avatar, VStack, Link, Divider, Flex } from "@chakra-ui/react";
+import { VStack, Flex } from "@chakra-ui/react";
 import { Buttons } from "./Components/buttons";
 import { About } from "./Components/about";
 import { Links } from "./Components/links";
