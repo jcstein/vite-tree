@@ -6,7 +6,7 @@ export const Links = () => {
     <VStack>
       <Stack spacing={4} direction="column" align="center">
         <Button
-          colorScheme="yellow"
+          colorScheme="green"
           size="lg"
           rightIcon={<FaInstagram />}
           onClick={() =>
@@ -16,7 +16,7 @@ export const Links = () => {
           CharasDMV
         </Button>
         <Button
-          colorScheme="yellow"
+          colorScheme="green"
           size="lg"
           rightIcon={<FaInstagram />}
           onClick={() =>
@@ -26,10 +26,10 @@ export const Links = () => {
             )
           }
         >
-          Fibonacci Genetics{" "}
+          Fibonacci Genetics
         </Button>
         <Button
-          colorScheme="yellow"
+          colorScheme="green"
           size="lg"
           rightIcon={<FaTelegram />}
           onClick={() =>
@@ -39,7 +39,7 @@ export const Links = () => {
           Telegram
         </Button>
         <Button
-          colorScheme="yellow"
+          colorScheme="green"
           size="lg"
           rightIcon={<FaDiscord />}
           onClick={() => window.open("https://discord.gg/txxzBeetBr", "_blank")}
