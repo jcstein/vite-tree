@@ -57,6 +57,19 @@ export const Links = () => {
         >
           Instagram
         </Button>
+        <Button
+          colorScheme="purple"
+          size="lg"
+          rightIcon={<FaGithub />}
+          onClick={() =>
+            window.open(
+              "https://github.com/jcstein/vite-tree/generate",
+              "_blank"
+            )
+          }
+        >
+          Use this Template
+        </Button>
       </Stack>
     </VStack>
   );
