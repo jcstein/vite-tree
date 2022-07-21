@@ -1,19 +1,18 @@
 import { Avatar, VStack, Link, Divider } from "@chakra-ui/react";
 import { Buttons } from "./Components/buttons";
 import { About } from "./Components/about";
-import { Projects } from "./Components/projects";
+import { Links } from "./Components/links";
 
 function App() {
   return (
     <div>
       <Buttons />
-      <VStack p="7">
+      <VStack p="8" height="screen">
         <About />
-        <Divider />
-        <Projects />
-        <Divider />
+        <Links />
+        <Divider pt="7" />
         <Link href="/" pt="8">
-          <Avatar src="/jcs.png" mx="auto" size="md" />
+          <Avatar src="/fibonacci.jpeg" mx="auto" size="md" />
         </Link>
       </VStack>
     </div>
