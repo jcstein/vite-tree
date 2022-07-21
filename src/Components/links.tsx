@@ -1,4 +1,4 @@
-import { Button, Stack, VStack, Icon } from "@chakra-ui/react";
+import { Button, Stack, VStack } from "@chakra-ui/react";
 import { FaTelegram, FaInstagram, FaDiscord } from "react-icons/fa";
 
 export const Links = () => {
@@ -32,9 +32,7 @@ export const Links = () => {
           colorScheme="green"
           size="lg"
           rightIcon={<FaTelegram />}
-          onClick={() =>
-            window.open("https://t.me/+PMgxkjL3jX43ZTVh", "_blank")
-          }
+          onClick={() => window.open("https://t.me/", "_blank")}
         >
           Telegram
         </Button>
@@ -42,7 +40,7 @@ export const Links = () => {
           colorScheme="green"
           size="lg"
           rightIcon={<FaDiscord />}
-          onClick={() => window.open("https://discord.gg/txxzBeetBr", "_blank")}
+          onClick={() => window.open("https://discord.gg/", "_blank")}
         >
           Discord
         </Button>
