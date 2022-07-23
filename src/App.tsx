@@ -13,7 +13,7 @@ function App() {
         alignSelf="center"
         minHeight="90vh"
       >
-        <VStack p="8">
+        <VStack p="8" width="100%">
           <About />
           <Links />
           <Link href="/" pt="8">
