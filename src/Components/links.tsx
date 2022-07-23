@@ -1,4 +1,4 @@
-import { Button, VStack, Divider } from "@chakra-ui/react";
+import { Button, VStack } from "@chakra-ui/react";
 import {
   FaInstagram,
   FaTwitter,
@@ -72,7 +72,6 @@ export const Links = () => {
           window.open("https://github.com/jcstein/vite-tree/generate", "_blank")
         }
         width="100%"
-        _hover={{ transform: "scale(1.1)" }}
       >
         Use this Template
       </Button>
