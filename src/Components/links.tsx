@@ -9,13 +9,14 @@ import {
 
 export const Links = () => {
   return (
-    <VStack spacing={4} direction="column" align="center" width="100%">
+    <VStack spacing={4} direction="column" align="center" width="90%">
       <Button
         colorScheme="purple"
         size="lg"
         rightIcon={<FaTwitter />}
         onClick={() => window.open("https://twitter.com/JoshCStein", "_blank")}
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         Twitter
       </Button>
@@ -25,6 +26,7 @@ export const Links = () => {
         rightIcon={<FaGlobe />}
         onClick={() => window.open("https://joshcs.lol", "_blank")}
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         Portfolio
       </Button>
@@ -34,6 +36,7 @@ export const Links = () => {
         rightIcon={<FaGithub />}
         onClick={() => window.open("https://github.com/jcstein", "_blank")}
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         GitHub
       </Button>
@@ -45,6 +48,7 @@ export const Links = () => {
           window.open("https://linkedin.com/in/joshcstein", "_blank")
         }
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         LinkedIn
       </Button>
@@ -56,6 +60,7 @@ export const Links = () => {
           window.open("https://www.instagram.com/joshcstein/", "_blank")
         }
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         Instagram
       </Button>
@@ -67,6 +72,7 @@ export const Links = () => {
           window.open("https://github.com/jcstein/vite-tree/generate", "_blank")
         }
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         Use this Template
       </Button>
