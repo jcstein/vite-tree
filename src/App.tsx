@@ -1,12 +1,12 @@
 import { VStack, Flex, Link, Avatar } from "@chakra-ui/react";
-import { Buttons } from "./Components/buttons";
+import { Topbuttons } from "./Components/topbuttons";
 import { About } from "./Components/about";
-import { Links } from "./Components/links";
+import { Tree } from "./Components/tree";
 
 function App() {
   return (
     <div>
-      <Buttons />
+      <Topbuttons />
       <Flex
         justifyContent="center"
         alignItems="center"
@@ -15,7 +15,7 @@ function App() {
       >
         <VStack p="8" width="100%">
           <About />
-          <Links />
+          <Tree />
           <Link href="https://joshcs.lol" pt="8" isExternal>
             <Avatar src="/jcs.png" mx="auto" size="md" />
           </Link>

@@ -7,7 +7,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-export const Links = () => {
+export const Tree = () => {
   return (
     <VStack spacing={4} direction="column" align="center" width="90%">
       <Button
@@ -72,6 +72,7 @@ export const Links = () => {
           window.open("https://github.com/jcstein/vite-tree/generate", "_blank")
         }
         width="100%"
+        _hover={{ transform: "scale(1.1)" }}
       >
         Use this Template
       </Button>

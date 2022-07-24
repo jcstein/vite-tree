@@ -2,7 +2,7 @@ import { IconButton, Flex, HStack } from "@chakra-ui/react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/react";
 
-export const Buttons = () => {
+export const Topbuttons = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Flex align="center" justify="end">
