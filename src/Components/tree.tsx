@@ -69,12 +69,12 @@ export const Tree = () => {
         size="lg"
         rightIcon={<FaGithub />}
         onClick={() =>
-          window.open("https://github.com/jcstein/vite-tree/generate", "_blank")
+          window.open("https://github.com/jcstein/vite-tree/fork", "_blank")
         }
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
       >
-        Use this Template
+        Fork this Repository
       </Button>
     </VStack>
   );
