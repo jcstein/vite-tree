@@ -17,6 +17,7 @@ export const Tree = () => {
         onClick={() => window.open("https://twitter.com/JoshCStein", "_blank")}
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
+        rounded="full"
       >
         Twitter
       </Button>
@@ -27,6 +28,7 @@ export const Tree = () => {
         onClick={() => window.open("https://joshcs.lol", "_blank")}
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
+        rounded="full"
       >
         Portfolio
       </Button>
@@ -37,6 +39,7 @@ export const Tree = () => {
         onClick={() => window.open("https://github.com/jcstein", "_blank")}
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
+        rounded="full"
       >
         GitHub
       </Button>
@@ -49,6 +52,7 @@ export const Tree = () => {
         }
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
+        rounded="full"
       >
         LinkedIn
       </Button>
@@ -61,6 +65,7 @@ export const Tree = () => {
         }
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
+        rounded="full"
       >
         Instagram
       </Button>
@@ -73,6 +78,7 @@ export const Tree = () => {
         }
         width="100%"
         _hover={{ transform: "scale(1.1)" }}
+        rounded="full"
       >
         Use this Template
       </Button>
